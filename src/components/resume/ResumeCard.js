@@ -1,7 +1,7 @@
 import React from 'react'
 const ResumeCard = ({title,className,subTitle,result,des,left}) => {
   return (
-    <div className={`flex w-full h-1/3 group ${className}`}>
+    <div className={`flex w-full h-1/3 group md:${className}`}>
       {!left && (<div className="w-10 h-[6px] bgOpacity mt-16 relative">
         <span className="absolute flex items-center justify-center w-5 h-5 bg-black rounded-full -top-2 -left-3 bg-opacity-60">
           <span className="inline-flex w-3 h-3 duration-300 rounded-full bg-bodyColor group-hover:bg-designColor"></span>

@@ -138,41 +138,41 @@ const Skills = () => {
             <div className="flex gap-4 md:flex-row boxShadow xs:flex-col">
                 <div className="flex flex-col gap-4 m-4 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne p-4 rounded">
                   <p className="justify-center font-bold text-center md:text-base">Web/Mobile Development</p>
-                  <div className="grid object-fill gap-2 md:grid-rows-5 md:grid-cols-3 xs:grid-cols-2 xs:grid-rows-7">
-                    <div className='m-2 bg-white bannerIcon'><img src={mongodb} alt='Java'/></div>
-                    <div className='m-2 bg-white bannerIcon'><img src={nodejs} alt='Java'/></div>
-                    <div className='m-2 bg-white bannerIcon'><img src={express} alt='Java'/></div>
-                    <div className='m-2 bg-white bannerIcon'><img src={react} alt='Java'/></div>
-                    <div className='m-2 bg-white bannerIcon'><img src={javascript} alt='Java'/></div>
-                    <div className='m-2 bg-white bannerIcon'><img src={react} alt='Java'/></div>
-                    <div className='m-2 bg-white bannerIcon'><img src={redux} alt='Java'/></div>
-                    <div className='m-2 bg-white bannerIcon'><img src={php} alt='Java'/></div>
-                    <div className='m-2 bg-white bannerIcon'><img src={fastAPI} alt='Java'/></div>
-                    <div className='m-2 bg-white bannerIcon'><img src={html} alt='Java'/></div>
-                    <div className='m-2 bg-white bannerIcon'><img src={css} alt='Java'/></div>
-                    <div className='m-2 bg-white bannerIcon'><img src={mysql} alt='Java'/></div>
-                    <div className='m-2 bg-white bannerIcon'><img src={tailwind} alt='Java'/></div>
-                    <div className='m-2 bg-white bannerIcon'><img src={kotlin} alt='Java'/></div>
+                  <div className="grid object-fill md:grid-rows-5 md:grid-cols-3 xs:grid-cols-2 xs:grid-rows-7">
+                    <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={mongodb} alt='Java'/></div>
+                    <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={express} alt='Java'/></div>
+                    <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={nodejs} alt='Java'/></div>
+                    <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={react} alt='Java'/></div>
+                    <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={javascript} alt='Java'/></div>
+                    <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={react} alt='Java'/></div>
+                    <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={redux} alt='Java'/></div>
+                    <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={php} alt='Java'/></div>
+                    <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={fastAPI} alt='Java'/></div>
+                    <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={html} alt='Java'/></div>
+                    <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={css} alt='Java'/></div>
+                    <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={mysql} alt='Java'/></div>
+                    <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={tailwind} alt='Java'/></div>
+                    <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={kotlin} alt='Java'/></div>
                   </div>
                 </div>
                 <div className="flex flex-col justify-between gap-4 m-4 bg-designColorfont-titleFont boxShadow">
                   <div className="flex flex-col gap-4 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne p-4 rounded"> 
                     <p className="font-bold text-center md:text-base">Programming Languages</p>
-                    <div className="grid object-fill gap-2 md:grid-cols-2 md:grid-rows-2 xs:grid-cols-2 xs:grid-rows-2">
-                      <div className='m-2 bg-white bannerIcon'><img src={c} alt='Java'/></div>
-                      <div className='m-2 bg-white bannerIcon'><img src={python} alt='Java'/></div>
-                      <div className='m-2 bg-white bannerIcon'><img src={java} alt='Java'/></div>
-                      <div className='m-2 bg-white bannerIcon'><img src={cplusplus} alt='Java'/></div>
+                    <div className="grid object-fill md:grid-cols-2 md:grid-rows-2 xs:grid-cols-2 xs:grid-rows-2">
+                      <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={c} alt='Java'/></div>
+                      <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={python} alt='Java'/></div>
+                      <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={java} alt='Java'/></div>
+                      <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={cplusplus} alt='Java'/></div>
                     </div>
 
                   </div>
                   <div className="flex flex-col gap-4 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne p-4 rounded">
                     <p className="font-bold text-center md:text-base">Text Editors</p>
-                    <div className="grid object-fill gap-2 md:grid-rows-2 md:grid-cols-2 xs:grid-cols-2 xs:grid-rows-2">
-                      <div className='m-2 bg-white bannerIcon'><img src={vscode} alt='Java'/></div>
-                      <div className='m-2 bg-white bannerIcon'><img src={intellij} alt='Java'/></div>
-                      <div className='m-2 bg-white bannerIcon'><img src={androidstudio} alt='Java'/></div>
-                      <div className='m-2 bg-white bannerIcon'><img src={pycharm} alt='Java'/></div>
+                    <div className="grid object-fill md:grid-rows-2 md:grid-cols-2 xs:grid-cols-2 xs:grid-rows-2">
+                      <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={vscode} alt='Java'/></div>
+                      <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={intellij} alt='Java'/></div>
+                      <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={androidstudio} alt='Java'/></div>
+                      <div className='m-2 scale-75 bg-white hover:scale-100 bannerIcon'><img src={pycharm} alt='Java'/></div>
                     </div>
                   </div>
                 </div>

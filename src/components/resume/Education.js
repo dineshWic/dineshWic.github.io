@@ -2,7 +2,13 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import ResumeCard from './ResumeCard';
 
+import { useMediaQuery } from '@react-hook/media-query';
+
+
 const Education = () => {
+  const isScreenMd = useMediaQuery('(min-width: 667px)');
+  console.log("isScreenMd",isScreenMd)
+  
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -15,7 +21,7 @@ const Education = () => {
           {/*<p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
   <h2 className="text-3xl font-bold md:text-4xl">Education Quality</h2>*/}
         </div>
-        <div className="mt-6 lgl:mt-14 w-[45%] h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 relative left-[50%]">
+        <div className="mt-6 lgl:mt-14 w-[45%] md:h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 relative md:left-[50%]">
           <ResumeCard
             title="BSc in Computer Science"
             subTitle="University of Colombo School of Computing, Sri Lanka(2021-Present)"
@@ -23,8 +29,8 @@ const Education = () => {
             des=""
           />
           <ResumeCard
-            className="relative -left-[105%] "
-            left={true}
+            className="md:relative md:-left-[105%]  "
+            left={isScreenMd}
             title="G.C.E. ADVANCED LEVELS"
             subTitle="Telijjawila Central College, Matara (2017 - 2019)"
             result=""
@@ -38,8 +44,8 @@ const Education = () => {
             des="6A, 1B, and 2C"
           />
           <ResumeCard
-            className="relative -left-[105%]"
-            left={true}
+            className="md:relative md:-left-[105%]"
+            left={isScreenMd}
             title="AS - Science & Information"
             subTitle="SuperKing College (2001 - 2005)"
             result="4.75/5"
