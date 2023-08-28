@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn,FaGithub,FaFacebook, } from "react-icons/fa";
 import {logo} from "../../assets/index"
 import { navLinksdata } from '../../constants';
 
@@ -43,11 +43,9 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="relative flex flex-col gap-8 py-2">
               <div>
-                <img className="w-32" src={logo} alt="logo" />
+                {/*<img className="w-32" src={logo} alt="logo" />*/}
                 <p className="mt-2 text-sm text-gray-400">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -75,15 +73,15 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
+                  <a href="https://www.facebook.com/dinesh.wickramasinghe.7549?mibextid=ZbWKwL" className="bannerIcon">
+                    <FaFacebook />
+                  </a>
+                  <a href="https://github.com/dineshWic" className="bannerIcon">
+                    <FaGithub />
+                  </a>
+                  <a href="https://www.linkedin.com/in/dinesh-wickramasinghe" className="bannerIcon">
                     <FaLinkedinIn />
-                  </span>
+                  </a>
                 </div>
               </div>
               <span
