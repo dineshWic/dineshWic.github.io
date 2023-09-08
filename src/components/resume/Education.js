@@ -13,7 +13,7 @@ const Education = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="flex flex-col w-full gap-10 lgl:flex-row lgl:gap-20"
+      className="flex flex-col w-full gap-10 lgl:gap-20"
     >
       {/* part one */}
       <div >
