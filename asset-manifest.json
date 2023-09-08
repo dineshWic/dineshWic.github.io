@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dinesh-portfolio/static/css/main.ee873a2b.css",
-    "main.js": "/dinesh-portfolio/static/js/main.d3b29a7c.js",
+    "main.css": "/dinesh-portfolio/static/css/main.ecf9e826.css",
+    "main.js": "/dinesh-portfolio/static/js/main.1d2798a5.js",
     "static/media/bannerImg.png": "/dinesh-portfolio/static/media/bannerImg.aaacf14bab1b628ae351.png",
     "static/media/projectFive.png": "/dinesh-portfolio/static/media/projectFive.0ea0d9290e4f4c04d265.png",
     "static/media/projectThree.png": "/dinesh-portfolio/static/media/projectThree.28828eefe3b90ff87596.png",
@@ -28,11 +28,11 @@
     "index.html": "/dinesh-portfolio/index.html",
     "static/media/tailwindcss.svg": "/dinesh-portfolio/static/media/tailwindcss.017e1e304e12384d156d384f40a4b5f8.svg",
     "static/media/fastapi.svg": "/dinesh-portfolio/static/media/fastapi.6c84dc4ea9626837be0ce2c5523b6d52.svg",
-    "main.ee873a2b.css.map": "/dinesh-portfolio/static/css/main.ee873a2b.css.map",
-    "main.d3b29a7c.js.map": "/dinesh-portfolio/static/js/main.d3b29a7c.js.map"
+    "main.ecf9e826.css.map": "/dinesh-portfolio/static/css/main.ecf9e826.css.map",
+    "main.1d2798a5.js.map": "/dinesh-portfolio/static/js/main.1d2798a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee873a2b.css",
-    "static/js/main.d3b29a7c.js"
+    "static/css/main.ecf9e826.css",
+    "static/js/main.1d2798a5.js"
   ]
 }
