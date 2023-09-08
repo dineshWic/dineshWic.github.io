@@ -21,7 +21,7 @@ const Education = () => {
           {/*<p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
   <h2 className="text-3xl font-bold md:text-4xl">Education Quality</h2>*/}
         </div>
-        <div className="mt-6 lgl:mt-14 w-[45%] md:h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 relative md:left-[50%]">
+        <div className="mt-6 lgl:mt-14 max-md:w-[85%] md:w-[45%] md:h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 relative md:left-[50%]">
           <ResumeCard
             title="BSc in Computer Science"
             subTitle="University of Colombo School of Computing, Sri Lanka(2021-Present)"
@@ -29,8 +29,8 @@ const Education = () => {
             des=""
           />
           <ResumeCard
-            className="md:relative md:-left-[105%]  "
-            left={isScreenMd}
+            className="inherit calculated-width"
+            left={true}
             title="G.C.E. ADVANCED LEVELS"
             subTitle="Telijjawila Central College, Matara (2017 - 2019)"
             result=""
@@ -42,14 +42,6 @@ const Education = () => {
             subTitle="Akuressa Maha Vidyalaya, Matara"
             result=""
             des="6A, 1B, and 2C"
-          />
-          <ResumeCard
-            className="md:relative md:-left-[105%]"
-            left={isScreenMd}
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
           />
         </div>
       </div>
