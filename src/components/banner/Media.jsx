@@ -34,7 +34,7 @@ const Media = () => {
 {        /*<h2 className="px-4 mb-4 text-base uppercase font-titleFont">
           Download CV
   </h2>*/}
-        <div className="flex-row justify-center gap-4 px-4">
+        <div className="flex-row justify-center gap-4">
           <button
             className="inline-flex px-4 py-2 mb-4 text-base font-bold text-white uppercase rounded w-[200px] bannerIcon"
             onClick={handleDownloadCV}
