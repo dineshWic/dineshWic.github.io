@@ -48,6 +48,7 @@
 @media (max-width: 667px) {
     .calculated-width{
         left: 0;
+        right:0;
 
     }
 }
